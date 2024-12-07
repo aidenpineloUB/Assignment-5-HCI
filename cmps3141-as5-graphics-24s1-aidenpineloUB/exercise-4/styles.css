@@ -1,0 +1,90 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Museo', Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f7ecdf; /* Light background matching brand color */
+    color: #553F2E; /* Dark text for readability */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Page Layout */
+  header {
+    background-color: #b2cc1ff3; /* Primary brand color */
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Section Styles */
+  section {
+    margin-bottom: 40px;
+  }
+  
+  section h2 {
+    color: #b2cc1ff3; /* Use brand color for headings */
+    border-bottom: 2px solid #553F2E;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+  }
+  
+  article {
+    margin-bottom: 30px;
+    padding: 15px;
+    background: white;
+    border: 1px solid #b2cc1ff3;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  article h3 {
+    margin-bottom: 10px;
+    color: #553F2E;
+  }
+  
+  article p {
+    margin-top: 10px;
+  }
+  
+  /* Image Styles */
+  img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #b2cc1ff3;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto 15px;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #553F2E; /* Dark background for footer */
+    color: white;
+    font-size: 0.9em;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    main {
+      padding: 10px;
+    }
+  
+    article {
+      padding: 10px;
+    }
+  }
+  

@@ -1,0 +1,45 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #222; /* Enhanced contrast */
+    line-height: 1.8; /* Improved readability */
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  h1 {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 2.5em;
+    margin-bottom: 15px;
+  }
+  
+  h2 {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1em;
+    margin: 0.5em 0;
+  }
+  
+  /* Navigation */
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav ul li a.active {
+    font-weight: bold;
+    border-bottom: 2px solid #fff;
+  }
+  
